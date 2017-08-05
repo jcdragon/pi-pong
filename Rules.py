@@ -1,0 +1,16 @@
+#Rules for pong
+
+print ("Rules for pong:")
+print (" ")
+print ("This game needs 2 players.")
+print (" ")
+print ("Left player use paper control.")
+print ("Right player use up and down arrows.")
+print (" ")
+print ("Dont let the ball go behind your paddle.")
+print ("The first to 10 points wins!")
+print (" ")
+print ("Have Fun!")
+print (" ")
+print (" ")
+print ("To begin type ctrl+q and then type: pgzrun mypong.py")

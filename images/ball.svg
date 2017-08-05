@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="35"
+   height="35"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="ball.svg"
+   inkscape:export-filename="/home/pi/code/images/ball.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="20.314286"
+     inkscape:cx="8.3931083"
+     inkscape:cy="17.5"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1824"
+     inkscape:window-height="920"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1017.3622)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ff00;stroke:none"
+       id="path3775"
+       sodipodi:cx="-5.9317861"
+       sodipodi:cy="13.168073"
+       sodipodi:rx="6.4732771"
+       sodipodi:ry="6.2763715"
+       d="m 0.54149103,13.168073 a 6.4732771,6.2763715 0 1 1 -12.94655403,0 6.4732771,6.2763715 0 1 1 12.94655403,0 z"
+       transform="matrix(2.703422,0,0,2.7882352,33.536121,998.14656)"
+       inkscape:export-filename="/home/pi/code/images/ball.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#800000;stroke:none"
+       d="m 16.78951,1049.8391 c -6.9477099,-0.3227 -12.7912479,-5.4215 -14.0525409,-12.2617 -0.207433,-1.1249 -0.29352,-2.825 -0.198299,-3.916 0.413082,-4.7332 2.90881,-8.879 6.889416,-11.4444 3.4324809,-2.2121 7.7638369,-2.9129 11.7563819,-1.9022 5.343949,1.353 9.536868,5.5449 10.886622,10.8845 0.320251,1.267 0.430101,2.2121 0.4289,3.6906 -10e-4,1.2669 -0.04785,1.7848 -0.258968,2.8635 -0.83148,4.249 -3.503981,7.962 -7.298546,10.1403 -1.973053,1.1326 -4.401667,1.8473 -6.56059,1.9306 -0.315291,0.012 -0.64969,0.027 -0.743109,0.034 -0.09342,0.01 -0.47559,0 -0.849267,-0.02 l 0,0 z"
+       id="path3773"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ff0000;stroke:none"
+       d="M 16.298875,32.42179 C 13.481965,32.186171 10.749977,31.145327 8.5027572,29.451595 5.3904752,27.105864 3.2896004,23.622686 2.7155163,19.85655 2.2254576,16.641642 2.7188292,13.566071 4.1888422,10.672154 4.9377024,9.1979227 5.8546301,7.961642 7.0789833,6.7754171 9.5669812,4.3648997 12.647196,2.9368558 16.094878,2.5954836 c 1.147002,-0.1135704 2.923299,-0.040719 4.068272,0.1668529 4.503719,0.8164773 8.419705,3.6841019 10.593329,7.7573545 0.724827,1.358287 1.270036,2.968537 1.540231,4.54901 0.220282,1.288511 0.22308,3.598668 0.0059,4.836184 -0.432009,2.461158 -1.386321,4.679666 -2.834227,6.588786 -2.240074,2.953623 -5.379465,4.931849 -9.009832,5.67737 -1.302774,0.267534 -2.846459,0.36059 -4.159634,0.250749 z"
+       id="path3839"
+       inkscape:connector-curvature="0"
+       transform="translate(0,1017.3622)" />
+  </g>
+</svg>
