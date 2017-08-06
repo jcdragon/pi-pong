@@ -132,8 +132,8 @@ class PongEngine:
 		if( os.path.exists("./images/" + self.leftPaddleImageName + self.graphicExtension) ):
 			self.leftPaddleSprite = anActorClass(self.leftPaddleImageName)
 			self.leftPaddleSprite.center = self.lpX,self.rpY
-			self.lpH = self.leftPaddleSprite.midtop[1] - self.leftPaddleSprite.midbottom[1]
-			self.lpW = self.leftPaddleSprite.midright[0] - self.leftPaddleSprite.midleft[0]
+			self.lpH = abs(self.leftPaddleSprite.midtop[1] - self.leftPaddleSprite.midbottom[1])
+			self.lpW = abs(self.leftPaddleSprite.midright[0] - self.leftPaddleSprite.midleft[0])
 
 		else:
 			print("There is a problem with the name of the image file for your 'Left Paddle'")
@@ -171,11 +171,23 @@ class PongEngine:
 		return( self.ballSprite )
 
 	def moveLeftPaddleSprite(self):
-		if( (self.lpY > 0 - self.lpH/2) and (self.lpY < self.windowH + self.lpH/2) ):
-			self.lpY = self.lpY + (self.lpSpeed * self.lpDirection)
-		else:
-			self.lpDirection = self.lpDirection * -1
-			self.lpY = self.lpY + (self.lpSpeed * self.lpDirection)
+		self.lpY = self.lpY + (self.lpSpeed * self.lpDirection)
+
+		self.lpY = max(self.lpY, self.lpH / 2)
+		self.lpY = min(self.lpY, self.windowH - self.lpH / 2)
+
+		# An uglier way of saying the same thing as the min/max statement above
+		#if self.lpY < self.lpH/2:
+		#	self.lpY = self.lpH/2
+		#elif self.lpY > self.windowH - self.lpH / 2:
+		#	self.lpY = self.windowH - self.lpH / 2
+
+		# The original code that doesn't take direction and speed into account
+		#if( (self.lpY > 0 - self.lpH/2) and (self.lpY < self.windowH + self.lpH/2) ):
+		#	self.lpY = self.lpY + (self.lpSpeed * self.lpDirection)
+		#else:
+		#	self.lpDirection = self.lpDirection * -1
+		#	self.lpY = self.lpY + (self.lpSpeed * self.lpDirection)
 			 
 		self.leftPaddleSprite.center = self.lpX, self.lpY
 
